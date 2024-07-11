@@ -1,12 +1,12 @@
 
 import './App.css'
+import Footer from "./Components/footer";
 
 function App() {
  
   return (
     <>
-    <div className='boxes'></div>
-    <h1>sujal charati</h1>
+    <Footer/>
       
      
     </>
