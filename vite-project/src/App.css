@@ -1,9 +1,21 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+* {
+ 
+  color: black;
+  background-color:#7776B3;
+  font-size: large;
+}
+
+.navbar{
+padding-left: 450px;
+margin-inline: 18px;
+}
+a{
+  margin-left: 160px;
+  text-decoration: none;
   text-align: center;
 }
+
+
 
 
 
