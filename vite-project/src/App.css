@@ -1,14 +1,18 @@
 * {
- 
+  background-color:#40534C;
   color: black;
-  background-color:#7776B3;
   font-size: large;
+  padding: 0px;
+  margin: 0px;
+
 }
 
 .navbar{
-padding-left: 450px;
+padding-left: 550px;
 padding-top: 30px;
-background-color: burlywood;
+width:auto;
+display: flex;
+background-color: rgb(180, 148, 106);
 border: 2px solid black;
 }
 a{
@@ -16,8 +20,10 @@ a{
   margin-left: 160px;
   text-decoration: none;
   text-align: center;
-  background-color: none;
+  background-color: transparent;
 }
+
+
 
 
 
