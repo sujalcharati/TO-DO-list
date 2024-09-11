@@ -5,7 +5,7 @@ import './App.css'
 import Footer from "../Components/Footer";
 
 function App() {
- 
+ const [todos, setTodos] = useState(0);
   return (
     <>
     <Footer/>
