@@ -2,25 +2,25 @@ import React from 'react';
 import { useState } from 'react';
 
 import './App.css'
-import Footer from "../Components/Footer";
+import {Footer} from "../Components/Footer";
 
 function App() {
  const [todos, setTodos] = useState(0);
-  return (
-    <>
+  return <div>
     <Footer/>
+    <Button title={title} description={description}/>
       
      
-    </>
-  )
+    </div>
+  
 }
-function button({title,description}){
+function Button({title,description}){
 return <div>
   <h1>
-    {title}
+    Title :{title}
   </h1>
   <h5>
-    {description}
+    Description: {description}
   </h5>
 </div>
 }
