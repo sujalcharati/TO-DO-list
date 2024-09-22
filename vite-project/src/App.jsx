@@ -2,26 +2,38 @@ import React from 'react';
 import { useState } from 'react';
 
 import './App.css'
-import {Footer} from "../Components/Footer";
+import {Footer} from "./Components/Footer";
 
 function App() {
- const [todos, setTodos] = useState(0);
-  return <div>
+ const [todos, setTodos] = useState([
+  {
+    title:"class",
+    description:" i have cohort class at evening at 8 pm"
+  },
+  {
+   title:"play",
+   description:" i have to play  at 10 am for the interschool"
+ }
+ ]);
+
+ 
+
+
+  return (
+  <div>
     <Footer/>
-    <Button title={title} description={description}/>
+    <Button onclick={()=>{
+         setTodos(todos={todos});
+    }} />
+    
       
      
     </div>
-  
+  )
 }
-function Button({title,description}){
+function Button({}){
 return <div>
-  <h1>
-    Title :{title}
-  </h1>
-  <h5>
-    Description: {description}
-  </h5>
+  <button>Add todos</button>
 </div>
 }
 export default App
